@@ -14,7 +14,7 @@
   </head>
 
 	<body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg">
         <img class="youtube-logo" src="icons/youtube-logo.svg">
@@ -25,302 +25,355 @@
 
         <button class="search-button">
           <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
         </button>
 
         <button class="voice-search-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
 
       <div class="right-section">
-        <img class="upload-icon" src="icons/upload.svg">
-        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-        <img class="notifications-icon" src="icons/notifications.svg">
-        <img class="current-user-picture" src="channel_pics/avatar.jpg">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-icon-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="current-user-picture-container">
+          <img class="current-user-picture" src="channel_pics/avatar.jpg">
+        </div>
       </div>
-    </div>
+    </header>
 
-    <div class="sidebar">
-      sidebar
-    </div>
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
 
-    <div class="video-grid">
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/f1-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/F1_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Thrilling Battles, Sprint Shunts And The Top 10 Onboards | 2022 Austrian Grand Prix | Emirates
-            </p>
-            <p class="video-author">
-              FORMULA 1
-            </p>
-            <p class="video-stats">
-              396K views &middot; 2 days ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/mkbhd-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/mkbhd_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">
-              Marques Brownlee
-            </p>
-            <p class="video-stats">
-              3.4M views &middot; 6 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/wvfrm-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/wvfrm_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              The Current State of Social Media and Marques's Toxic Trait
-            </p>
-            <p class="video-author">
-              WVFRM Podcast
-            </p>
-            <p class="video-stats">
-              31K views &middot; 1 days ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/nbc-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/nbc_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Leeds United v. Wolves | PREMIER LEAGUE HIGHLIGHTS | 8/6/2022 | NBC Sports
-            </p>
-            <p class="video-author">
-              NBC Sports
-            </p>
-            <p class="video-stats">
-              128K views &middot; 9 hours ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/charles-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/charles_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Charles Leclerc: 24 Hours In Monaco (Day In The Life)
-            </p>
-            <p class="video-author">
-              Charles Leclerc
-            </p>
-            <p class="video-stats">
-              2.9M views &middot; 3 days ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/dude-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/dude_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              World's Hottest Hot Sauce | OT 27
-            </p>
-            <p class="video-author">
-              Dude Perfect
-            </p>
-            <p class="video-stats">
-              21M views &middot; 1 year ago
-            </p>
-          </div>
-        </div>
-      </div>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=XP-ZsAWqrWU" target="_blank">
+            <div class="thumbnail-row" hrf>
+              <img class="thumbnails" src="thumbnails/f1-thumbnail.webp">
+              <div class="video-time">12:37</div>
+            </div>
+          </a>
 
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/manchester-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/manchester_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Eriksen, Heaton & Ten Hag React To Rayo Vallecano & Pre-Season 🤝
-            </p>
-            <p class="video-author">
-              Manchester United
-            </p>
-            <p class="video-stats">
-              6.4M views &middot; 6 days ago
-            </p>
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/F1_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Thrilling Battles, Sprint Shunts And The Top 10 Onboards | 2022 Austrian Grand Prix | Emirates
+              </p>
+              <p class="video-author">
+                FORMULA 1
+              </p>
+              <p class="video-stats">
+                396K views &middot; 2 days ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/mrwhosetheboss-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/mrwhosetheboss_profile.jpg">
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/mkbhd-thumbnail.webp">
+            <div class="video-time">14:21</div>
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              The MrBeast MEGA-STUDIO Tour!
-            </p>
-            <p class="video-author">
-              Mrwhosetheboss
-            </p>
-            <p class="video-stats">
-              7.7M views &middot; 9 days ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/sky-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/sky_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Norris, Russell, Leclerc & Albon compete in hilarious F1 quiz! | The Twitch Quartet Quiz
-            </p>
-            <p class="video-author">
-              Sky Sports F1
-            </p>
-            <p class="video-stats">
-              3.7M views &middot; 1 year ago
-            </p>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/mkbhd_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &middot; 6 months ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/supersimpledev-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/supersimpledev_profile.jpg">
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/wvfrm-thumbnail.webp">
+            <div class="video-time">1:11:43</div>
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              HTML & CSS Full Course - Beginner to Pro (2022)
-            </p>
-            <p class="video-author">
-              SuperSimpleDev
-            </p>
-            <p class="video-stats">
-              1.3M views &middot; 6 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/throttle-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/throttle_profile.jpg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              2022 Lucid Air Review // Tesla's Living Nightmare
-            </p>
-            <p class="video-author">
-              Throttle House
-            </p>
-            <p class="video-stats">
-              2.2M views &middot; 7 months ago
-            </p>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/wvfrm_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Current State of Social Media and Marques's Toxic Trait
+              </p>
+              <p class="video-author">
+                WVFRM Podcast
+              </p>
+              <p class="video-stats">
+                31K views &middot; 1 days ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnails" src="thumbnails/wvfrm2-thumbnail.webp">
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pic">
-            <img class="profile-pic" src="channel_pics/wvfrm_profile.jpg">
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/nbc-thumbnail.webp">
+            <div class="video-time">13:34</div>
           </div>
-          <div class="video-info">
-            <p class="video-title">
-              @Mark Rober talks Glitterbomb, Creative Engineering, and Storytelling!
-            </p>
-            <p class="video-author">
-              WVFRM Podcast
-            </p>
-            <p class="video-stats">
-              39K views &middot; 8 days ago
-            </p>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/nbc_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Leeds United v. Wolves | PREMIER LEAGUE HIGHLIGHTS | 8/6/2022 | NBC Sports
+              </p>
+              <p class="video-author">
+                NBC Sports
+              </p>
+              <p class="video-stats">
+                128K views &middot; 9 hours ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/charles-thumbnail.webp">
+            <div class="video-time">15:13</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/charles_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Charles Leclerc: 24 Hours In Monaco (Day In The Life)
+              </p>
+              <p class="video-author">
+                Charles Leclerc
+              </p>
+              <p class="video-stats">
+                2.9M views &middot; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/dude-thumbnail.webp">
+            <div class="video-time">24:32</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/dude_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                World's Hottest Hot Sauce | OT 27
+              </p>
+              <p class="video-author">
+                Dude Perfect
+              </p>
+              <p class="video-stats">
+                21M views &middot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/manchester-thumbnail.webp">
+            <div class="video-time">9:41</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/manchester_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Eriksen, Heaton & Ten Hag React To Rayo Vallecano & Pre-Season 🤝
+              </p>
+              <p class="video-author">
+                Manchester United
+              </p>
+              <p class="video-stats">
+                6.4M views &middot; 6 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/mrwhosetheboss-thumbnail.webp">
+            <div class="video-time">18:06</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/mrwhosetheboss_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The MrBeast MEGA-STUDIO Tour!
+              </p>
+              <p class="video-author">
+                Mrwhosetheboss
+              </p>
+              <p class="video-stats">
+                7.7M views &middot; 9 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/sky-thumbnail.webp">
+            <div class="video-time">24:48</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/sky_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Norris, Russell, Leclerc & Albon compete in hilarious F1 quiz! | The Twitch Quartet Quiz
+              </p>
+              <p class="video-author">
+                Sky Sports F1
+              </p>
+              <p class="video-stats">
+                3.7M views &middot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/supersimpledev-thumbnail.webp">
+            <div class="video-time">6:31:23</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/supersimpledev_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML & CSS Full Course - Beginner to Pro (2022)
+              </p>
+              <p class="video-author">
+                SuperSimpleDev
+              </p>
+              <p class="video-stats">
+                1.3M views &middot; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/throttle-thumbnail.webp">
+            <div class="video-time">23:51</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/throttle_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                2022 Lucid Air Review // Tesla's Living Nightmare
+              </p>
+              <p class="video-author">
+                Throttle House
+              </p>
+              <p class="video-stats">
+                2.2M views &middot; 7 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnails" src="thumbnails/wvfrm2-thumbnail.webp">
+            <div class="video-time">57:51</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel_pics/wvfrm_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                @Mark Rober talks Glitterbomb, Creative Engineering, and Storytelling!
+              </p>
+              <p class="video-author">
+                WVFRM Podcast
+              </p>
+              <p class="video-stats">
+                39K views &middot; 8 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
 	</body>
 </html>
